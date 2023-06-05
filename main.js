@@ -8,7 +8,16 @@
     w.addEventListener('pageShow',setSize)
     w.addEventListener('DOMContentLoaded',setSize)
   })(window,document)
-  function goXj(){
+  function goDetail(val){
     console.log(location.href)
-    location.href='xj.html'
+    location.href=val+'.html'
   }
+  function getToken(){
+    console.log(location.href)
+    let token = location.href.split('?')[1].split('=')[1]
+    console.log(token)
+    if(token!='asdfghjkl'){
+      location.href='http://www.baidu.com'
+    }
+  }
+  getToken()

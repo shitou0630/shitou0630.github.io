@@ -6,6 +6,11 @@ body{
     line-height: 1.173rem;
     text-align: center;
 }
+.back{
+    float: left;
+    font-size: .5rem;
+    padding-left: .4rem;
+}
 .header-title{
     margin: 0 auto;
     max-width: 60%;
@@ -29,6 +34,14 @@ body{
     box-shadow: 0 0.107rem 0.213rem rgba(63,203,146,.4);
     background: linear-gradient(180deg,#1faf7f,#3fcb92);
 }
+.card.xl{
+    box-shadow: 0 0.107rem 0.213rem rgba(93,170,248,.4);
+    background: linear-gradient(90deg,#3886f3,#5daaf8);
+}
+.card.xw{
+    box-shadow: 0 0.107rem 0.213rem rgba(87,128,232,.4);
+    background: linear-gradient(90deg,#3850da,#5780e8);
+}
 .card-title {
     padding-top: .5rem;
     font-size: .5rem;
@@ -47,10 +60,40 @@ body{
     opacity: 0.8;
     margin-top: .5rem;
 }
+.bk-blue{
+    float: right;
+    /* background: url(./images/bk-green.png) no-repeat 3.84rem 0.693rem; */
+    height: .6rem;
+    width: 1.2rem;
+    background-color: #2b77c7;
+    border-radius: 1.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: .6rem;
+    opacity: 0.8;
+    margin-top: .5rem;
+}
+.xs-blue{
+    float: right;
+    /* background: url(./images/bk-green.png) no-repeat 3.84rem 0.693rem; */
+    height: .6rem;
+    width: 1.2rem;
+    background-color: #415bd2;
+    border-radius: 1.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: .6rem;
+    opacity: 0.8;
+    margin-top: .5rem;
+}
 .card-content {
     padding-top: 0.3rem;
     padding-bottom: 0.1rem;
     font-size: .327rem;
+}
+.col-5 {
+    float: left;
+    width: 20.8%;
 }
 .col-9 {
     float: left;
@@ -59,6 +102,10 @@ body{
 .col-15 {
     float: right;
     width: 62.5%;
+}
+.col-19 {
+    float: right;
+    width: 79.2%;
 }
 .clearboth{
     clear: both;
@@ -96,4 +143,31 @@ h5 {
 }
 span {
     font-size: .32rem;
+}
+.detail-list{
+    padding-top: .5rem;
+    font-size: .5rem;
+}
+.detail-list span{
+    font-size: .36rem;
+}
+.detail-item{
+    padding: .1rem .5rem;
+}
+.item-title{
+    display: inline-block;
+    width: 3rem;
+    text-align: end;
+    color: #999;
+}
+.item-value{
+    padding-left: .4rem;
+}
+.button{
+ margin: .5rem .1rem;
+ background-color: #26b887;
+ color: #fff;
+ padding: .4rem 1rem;
+ text-align: center;
+ font-size: .4rem;
 }
