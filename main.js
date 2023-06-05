@@ -14,7 +14,11 @@
   }
   function getToken(){
     console.log(location.href)
-    let token = location.href.split('?')[1].split('=')[1]
+    let str = location.href.split('?')[1]
+    if(!str){
+      location.href='http://www.baidu.com'
+    }
+    let token = str.split('=')[1]
     console.log(token)
     if(token!='asdfghjkl'){
       location.href='http://www.baidu.com'
